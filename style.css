@@ -23,7 +23,6 @@ li {
   position: relative;
   color: #000;
   text-decoration: none;
-  z-index: 2;
 }
 
 li:before {
