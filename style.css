@@ -227,7 +227,7 @@ i {
 }
 
 .cro {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/abtest1.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('https://raw.githubusercontent.com/pennebaj/joepennebaker.com/master/images/abtest1.png');
   background-size: contain;
 }
 
