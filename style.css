@@ -4,6 +4,7 @@ html {
 
  a {
    text-decoration: none;
+   cursor: pointer;
  }
 
 div, body {
@@ -24,6 +25,7 @@ li {
   display: inline;
   margin: 0 10px;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 li {
@@ -178,4 +180,78 @@ i {
 
 .experience-content {
   padding: 0 10% 0 23%;
+}
+
+.portfolio-container {
+  background-color: hsla(210, 40%,50%, 1);
+}
+
+.portfolio-header {
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  padding: 3% 0;
+}
+
+.portfolio-blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 84%;
+  margin-right: -10px;
+}
+
+.portfolio-block {
+  width: 33.16%;
+  transition: all .3s ease-in-out;
+}
+
+.portfolio-block *:hover {
+  transition: all .3s ease-in-out;
+}
+
+.portfolio-block span {
+  display: block;
+    text-align: center;
+    position: relative;
+    top: 42%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.portfolio-block span:hover {
+  transform: scale(1.2);
+}
+
+.cro {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/abtest1.png');
+  background-size: contain;
+}
+
+.ux {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/ux1.jpg');
+  background-size: cover;
+}
+
+.ui {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/ui1.png');
+  background-size: cover;
+}
+
+.graphics {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/graphics1.png');
+  background-size: cover;
+}
+
+.video {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/video1.png');
+  background-size: cover;
+}
+
+.brand {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/brand1.png');
+  background-size: cover;
 }
