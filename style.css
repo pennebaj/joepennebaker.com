@@ -191,8 +191,11 @@ i {
   font-size: 3rem;
   display: flex;
   flex-direction: column;
-  height: 10%;
-  padding: 3% 0;
+  height: 16%;
+}
+
+.portfolio-header span {
+  margin: auto 0;
 }
 
 .portfolio-blocks {
@@ -227,7 +230,7 @@ i {
 }
 
 .cro {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('https://raw.githubusercontent.com/pennebaj/joepennebaker.com/master/images/abtest1.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('file:///Users/pennebaj/Documents/portfolio/images/abtest1.png');
   background-size: contain;
 }
 
