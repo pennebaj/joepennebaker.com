@@ -277,7 +277,7 @@ i {
   background-color: hsla(260, 40%, 60%, 1);
 }
 
-.ui-container, .brand-container {
+.ui-container, .port-brand-container {
   background-color: hsla(210, 40%,50%, 1);
 }
 
@@ -304,4 +304,18 @@ i {
 
 .brand-arrow {
   bottom: -599%;
+}
+
+.about-content a, .brand-arrow span {
+  color: white;
+  text-decoration: underline;
+}
+
+.contact-container {
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  display: flex;
+  width: 6%;
+  justify-content: space-between;
 }
