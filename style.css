@@ -313,9 +313,9 @@ i {
 
 .contact-container {
   position: absolute;
-  top: 1%;
+  top: 3%;
   right: 5%;
   display: flex;
-  width: 6%;
+  width: 5%;
   justify-content: space-between;
 }
