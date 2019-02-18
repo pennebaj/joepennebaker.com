@@ -225,8 +225,8 @@ i {
   transition: all .3s ease-in-out;
 }
 
-.portfolio-block span {
-  display: block;
+.portfolio-block a {
+    display: block;
     text-align: center;
     position: relative;
     top: 42%;
@@ -307,7 +307,7 @@ i {
 }
 
 .about-content a, .brand-arrow span {
-  color: #ffffff;
+  color: white;
   text-decoration: underline;
 }
 
