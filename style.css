@@ -144,6 +144,7 @@ i {
   width: 100%:
   height: 100%;
   border-radius: 210px;
+  border: 6px solid white;
 }
 
 .about-right {
@@ -238,6 +239,8 @@ i {
     top: 42%;
     font-size: 1.5rem;
     transition: all .3s ease-in-out;
+    padding: 30% 20% 30% 20%;
+    margin-top: -30%;
 }
 
 .portfolio-block a:hover {
