@@ -341,6 +341,10 @@ i {
     color: hsla(260, 40%, 60%, 1);
 }
 
+#video_button {
+  line-height: 4rem;
+}
+
 #ui_button {
   color: hsla(210, 40%,50%, 1)
 }
