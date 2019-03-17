@@ -339,10 +339,7 @@ i {
 
 #ux_button, #video_button {
     color: hsla(260, 40%, 60%, 1);
-}
-
-#video_button {
-  line-height: 4rem;
+    line-height: 4rem;
 }
 
 #ui_button {
