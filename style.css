@@ -331,9 +331,20 @@ i {
 }
 
 #ux_button, #ui_button, #gd_button, #video_button {
-  background-color: #ffffff;
-    color: hsla(260, 40%, 60%, 1);
+    background-color: #ffffff;
     padding: .7rem;
     text-decoration: none;
     border-radius: 2rem;
+}
+
+#ux_button, #video_button {
+    color: hsla(260, 40%, 60%, 1);
+}
+
+#ui_button {
+  color: hsla(210, 40%,50%, 1)
+}
+
+#gd_button {
+  color: hsla(160, 40%, 50%, 1)
 }
