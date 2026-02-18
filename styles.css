@@ -224,13 +224,13 @@ a:hover {
 }
 
 .profile-pic {
-  width: 100%;
-  max-width: 350px;
+  width: 350px;
   height: 350px;
   border-radius: 50%;
   box-shadow: 0 20px 50px rgba(99, 102, 241, 0.2);
   object-fit: cover;
   display: block;
+  flex-shrink: 0;
 }
 
 .hero-title {
@@ -754,7 +754,7 @@ footer {
   }
 
   .profile-pic {
-    max-width: 280px;
+    width: 280px;
     height: 280px;
   }
 
@@ -849,7 +849,7 @@ footer {
   }
 
   .profile-pic {
-    max-width: 220px;
+    width: 220px;
     height: 220px;
   }
 
@@ -908,7 +908,7 @@ footer {
   }
 
   .expertise-card {
-    padding: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-sm);
   }
 
   .expertise-card h3 {
@@ -950,7 +950,7 @@ footer {
   }
 
   .partner-card {
-    padding: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-sm);
   }
 
   .partner-name {
@@ -983,7 +983,7 @@ footer {
   }
 
   .timeline-content {
-    padding: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-sm);
   }
 
   .timeline-content p {
